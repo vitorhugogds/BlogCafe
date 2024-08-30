@@ -1,0 +1,64 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(192, 192, 192);
+}
+
+#cabecalho{
+    padding: 2px;
+    background-color: cadetblue;
+    text-align: center;
+    color: white;
+    background-color: rgb(173, 129, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+#cabecalho .logo{
+    display: flex;
+    justify-items: start;
+    width: 50px;
+}
+
+.divisor{
+    width: 50%;
+    display: flex;
+
+}
+
+
+#menu {
+    padding: 10px;
+    list-style-type: none;
+    display:flex;
+    margin-bottom: 0;
+    gap: 1em;
+    background-color: wheat;
+    justify-content: space-evenly;
+    
+
+}
+
+#divprincipal #titulo #imgconteudo{
+    border-radius: 15px;
+}
+
+#divprincipal{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    text-align: center;
+}
