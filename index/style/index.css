@@ -62,3 +62,10 @@ body{
 .titulo{
     text-align: center;
 }
+
+footer{
+    background-color: rgb(182, 142, 99);
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
